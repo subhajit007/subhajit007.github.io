@@ -485,7 +485,11 @@
 
     </script>
     <script>
+    setTimeout(function(){
+      //deferred onload
+
     $(document).ready(function(){
+
       $(".skills").typed({
         strings: ["Hello, I am Subhajit Banerjee.", "You can call me Jit.","I am a web developer.", "Designer,", "Geek", "Web Developer / Designer / Geek "],
         typeSpeed: 60,
@@ -495,7 +499,8 @@
         showCursor: true,
         cursorChar: "|"
       });
-  });
+});
+  }, 2000);
     </script>
 
 
